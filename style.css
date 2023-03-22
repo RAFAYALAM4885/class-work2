@@ -1,0 +1,22 @@
+div{
+    width: 900px;
+    height: 500px;
+    background-image: url('8.jpg');background-repeat: no-repeat;
+    animation-name: example;
+    animation-duration: 4s;
+    background-size: cover;
+    border-radius: 100px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+       background-image: url('8.jpg');background-repeat: no-repeat;
+    }
+    then{
+       background-image: url('7.jpg');background-repeat: no-repeat
+    }
+    to{
+        background-image: url(images.jpg);background-repeat: no-repeat;
+       
+    }
+}

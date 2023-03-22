@@ -1,0 +1,15 @@
+div{
+    width: 150px;
+    height: 200px;
+    background-image: url('4.jpg');background-repeat: no-repeat;
+
+    animation-duration: 4s;
+    background-size: cover;
+    border-radius: 100px;
+    animation-iteration-count: infinite
+}
+div:hover{
+    background-image: url('3.jpg');
+    background-repeat: no-repeat;
+}
+   

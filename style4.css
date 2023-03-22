@@ -1,0 +1,22 @@
+p{
+    color: bisque;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example{
+    0%{
+      color: antiquewhite; 
+    }
+    25%{
+        color: rgba(243, 11, 11, 0.5);
+}
+75%{
+    color: blue;
+}
+100%{
+    color: aqua;
+}
+}
+p:hover{
+    background-color: blueviolet;
+}

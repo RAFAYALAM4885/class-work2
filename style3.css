@@ -1,0 +1,26 @@
+.grid-container{
+    display: grid;
+    grid-gap:10px 10px;
+    grid-template-columns: auto auto auto;
+    background-color: azure;
+    padding: 10px;
+    border: 2px solid black;
+}
+.grid-item{
+    background-color: antiquewhite;
+    animation-name: example;
+    animation-duration: 2s;
+    background-size: cover;
+    animation-iteration-count: infinite;
+    border: 3px;
+}
+@keyframes example{
+    from{
+        background-color: rgb(54, 2, 2);
+     }
+     to{
+        background-color: aqua;
+     }
+ 
+
+}
